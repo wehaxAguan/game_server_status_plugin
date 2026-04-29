@@ -9,8 +9,8 @@ windrose:
   backup_dir: "C:\\windrose-backups"
 
 oss:
-  bucket: "ssr-test-res"
-  endpoint: "oss-cn-beijing.aliyuncs.com"
+  bucket: "windrose-backups-sh"
+  endpoint: "oss-cn-shanghai.aliyuncs.com"
   prefix: "windrose-backups/"
 
 feishu:

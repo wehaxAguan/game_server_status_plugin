@@ -7,8 +7,8 @@ feishu:
   webhook: "https://open.feishu.cn/open-apis/bot/v2/hook/ef6640e3-3640-4554-83b3-eb08b6f22bab"
 
 oss:
-  bucket: "ssr-test-res"
-  endpoint: "oss-cn-beijing.aliyuncs.com"
+  bucket: "windrose-backups-sh"
+  endpoint: "oss-cn-shanghai.aliyuncs.com"
   prefix: "windrose-backups/"
 
 local:
