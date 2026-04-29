@@ -1,0 +1,16 @@
+server:
+  host: "39.107.87.36"
+  port: 8080
+  timeout: 10
+
+feishu:
+  webhook: "https://open.feishu.cn/open-apis/bot/v2/hook/ef6640e3-3640-4554-83b3-eb08b6f22bab"
+
+oss:
+  bucket: "ssr-test-res"
+  endpoint: "oss-cn-beijing.aliyuncs.com"
+  prefix: "windrose-backups/"
+
+local:
+  backup_dir: "~/windrose-backups"
+  state_file: "~/.hermes/windrose_monitor_state.json"

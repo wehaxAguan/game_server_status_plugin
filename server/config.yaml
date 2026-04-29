@@ -1,0 +1,17 @@
+server:
+  port: 8080
+  host: 0.0.0.0
+
+windrose:
+  process_name: "WindroseServer-Win64-Shipping"
+  log_path: "C:\\windrose-server\\R5\\Saved\\Logs\\R5.log"
+  save_path: "C:\\windrose-server\\R5\\Saved"
+  backup_dir: "C:\\windrose-backups"
+
+oss:
+  bucket: "ssr-test-res"
+  endpoint: "oss-cn-beijing.aliyuncs.com"
+  prefix: "windrose-backups/"
+
+feishu:
+  webhook: "https://open.feishu.cn/open-apis/bot/v2/hook/ef6640e3-3640-4554-83b3-eb08b6f22bab"
